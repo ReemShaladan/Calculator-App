@@ -9,7 +9,7 @@ function App() {
   const handleButtonClick = (button) => {
     if (button === "=") {
       try {
-        setResult(eval(expression)); // احذري عند استخدام eval، هنا نستخدمه فقط للتجربة
+        setResult(eval(expression)); 
       } catch {
         setResult("Error");
       }
